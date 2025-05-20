@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 474231561}
   - component: {fileID: 474231563}
   - component: {fileID: 474231562}
+  - component: {fileID: 474231564}
   m_Layer: 3
   m_Name: Shiba
   m_TagString: Untagged
@@ -150,7 +151,7 @@ Transform:
   m_GameObject: {fileID: 474231556}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2272026, y: 0.6696111, z: 0.6696111, w: 0.2272026}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: -0.25, y: 1, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -227,6 +228,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474231556}
   m_Mesh: {fileID: -3590297214008201018, guid: 8ff67f6a0f3c14954937a4999752a235, type: 3}
+--- !u!192 &474231564
+OcclusionArea:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474231556}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_IsViewVolume: 1
 --- !u!1 &801665285
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 1514123069}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.04, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
